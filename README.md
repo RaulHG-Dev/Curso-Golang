@@ -1,1 +1,1 @@
-"# Curso-Golang" 
+# Curso Golang Platzi
