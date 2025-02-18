@@ -14,7 +14,7 @@ type Employee struct {
 type FullTimeEmployee struct {
 	Person
 	Employee
-	endDate string
+	// endDate string
 }
 
 func (ftEmployee FullTimeEmployee) getMessage() string {
@@ -24,7 +24,7 @@ func (ftEmployee FullTimeEmployee) getMessage() string {
 type TemporaryEmployee struct {
 	Person
 	Employee
-	taxRate int
+	// taxRate int
 }
 
 func (tEmployee TemporaryEmployee) getMessage() string {
